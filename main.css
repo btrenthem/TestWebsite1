@@ -53,6 +53,13 @@ body {
     margin-left: 10px;
   }
   
+  .uppernav ul {
+    list-style-type: none; /* Removes default list styling */
+    margin: 0;
+    padding: 0;
+}
+
+
   .uppernav li a {
     text-decoration: none;
     padding: 8px 16px;
@@ -97,9 +104,30 @@ section {
     overflow: hidden;
 }
 
-.curved-box:hover {
+/* .curved-box:hover {
     animation: upDownAnimation 4s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
+} */
+
+.sleek-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(230, 244, 241, 0.5); /* Same as .curved-box */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Keeps the rounded corners for the table */
 }
+
+.sleek-table th, .sleek-table td {
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 8px;
+    text-align: left;
+}
+
+.sleek-table thead {
+    background-color: #e6f4f1; /* Slightly darker shade for header */
+}
+
+/* Additional styling if needed */
+
 
 /* FOOTER */
 footer {
