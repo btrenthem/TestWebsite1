@@ -9,20 +9,20 @@ C - Skip Shade Gradient
 D - Natural Palette */
 
 :root {
---color-A1: #149ff5;
---color-A2: #0051B6;
---color-A3: #E6F4F1;
---color-A4: #EEE8A9;
---color-B1: #87CEFA;
---color-B2: #518882;
---color-B3: #005953;
---color-B4: #0E2523;
---color-C1: #87CEFA;
---color-C2: #00C3FA;
---color-C3: #00E2E5;
---color-C4: #77FAC6;
---color-D1: #149FF5;
---color-D2: #7193BC;
---color-D3: #F4FAFF;
---color-D4: #E6F4F1;
-}
+    --color-A1: #000000;
+    --color-A2: #A69F95;
+    --color-A3: #7A7A7A;
+    --color-A4: #FFFFFF;
+    --color-B1: #00254E;
+    --color-B2: #5D83B1;
+    --color-B3: #8EB2D9;
+    --color-B4: #94A4AB;
+    --color-C1: #21282B;
+    --color-C2: #55575E;
+    --color-C3: #91868A;
+    --color-C4: #C9B4AF;
+    --color-D1: #00254E;
+    --color-D2: #5D83B1;
+    --color-D3: #8EB2D9;
+    --color-D4: #94A4AB;
+    }
