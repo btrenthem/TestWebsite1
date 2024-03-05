@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="icon" type="image/png" href="Assets\favicon-32x32.png">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="lightbox.css">
     <title>Brandon Stuff - Home</title>
 </head>
 <body>
@@ -26,83 +27,198 @@
         
 <div class="curved-box">
     <p>This page is dedicated to AI art that I've created with Midjourney since 2023. </p>
-    <p> <a href="art-fixed.html" id="home-link"> Fixed </a> </p>
+    <p> <a href="art-fixed.html" id="home-link"> Fixed </a> <br> <br>  Clicking "Fixed" will go to the fixed width page. There is no photo gallery on that page.</p>
  </div>
  <div class="curved-box">
- <p> I am developing the page to better organize and display the images. For now it's just each folder in a 3 column grid. Enjoy! </p>
+ <p> There is now an image gallery feature. Please note the clickable area is a whole square, if you click below a wide image it will still open!
+    Use arrow keys to navigate, or click on the left/right edges of the expanded image. Escape or clicking outside an opened image will close. </p>
 </div>
 
 <!-- Images -->
 
 <h2> DESOLATION </h2>
- <div class="image-container" id="image-container">
-    <img src='Assets\art\Desolation\abandoned_desert (2).webp' class="image-box">
-    <img src='Assets\art\Desolation\abandoned_desert (3).webp' class="image-box">
-    <img src='Assets\art\Desolation\abandoned_desert.webp' class="image-box">
-    <img src='Assets\art\Desolation\abandoned_town (2).webp' class="image-box">
-    <img src='Assets\art\Desolation\abandoned_town.webp' class="image-box">
-    <img src='Assets\art\Desolation\cluttered_diner.webp' class="image-box">
-    <img src='Assets\art\Desolation\destroyed_city (2).webp' class="image-box">
-    <img src='Assets\art\Desolation\destroyed_city.webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_city (2).webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_city (3).webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_city (4).webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_city (5).webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_city.webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_lighthouse.webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_street.webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_train.webp' class="image-box">
-    <img src='Assets\art\Desolation\gray_tree.webp' class="image-box">
+ <div class="containerYT" id="image-container">
+    <div class="galleryYT">
+    <a href='Assets\art\Desolation\abandoned_desert (2).webp' data-lightbox="Desolation" data-title="abandoned_desert (2)">
+        <img src='Assets\art\Desolation\abandoned_desert (2).webp'>
+    </a>
+    <a href='Assets\art\Desolation\abandoned_desert (3).webp' data-lightbox="Desolation" data-title="abandoned_desert (3)">
+        <img src='Assets\art\Desolation\abandoned_desert (3).webp'>
+    </a>
+    <a href='Assets\art\Desolation\abandoned_desert.webp' data-lightbox="Desolation" data-title="abandoned_desert">
+        <img src='Assets\art\Desolation\abandoned_desert.webp'>
+    </a>
+    <a href='Assets\art\Desolation\abandoned_town (2).webp' data-lightbox="Desolation" data-title="abandoned_town (2)">
+        <img src='Assets\art\Desolation\abandoned_town (2).webp'>
+    </a>
+    <a href='Assets\art\Desolation\abandoned_town.webp' data-lightbox="Desolation" data-title="abandoned_town">
+        <img src='Assets\art\Desolation\abandoned_town.webp'>
+    </a>
+    <a href='Assets\art\Desolation\cluttered_diner.webp' data-lightbox="Desolation" data-title="cluttered_diner">
+        <img src='Assets\art\Desolation\cluttered_diner.webp'>
+    </a>
+    <a href='Assets\art\Desolation\destroyed_city (2).webp' data-lightbox="Desolation" data-title="destroyed_city (2)">
+        <img src='Assets\art\Desolation\destroyed_city (2).webp'>
+    </a>
+    <a href='Assets\art\Desolation\destroyed_city.webp' data-lightbox="Desolation" data-title="destroyed_city">
+        <img src='Assets\art\Desolation\destroyed_city.webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_city (2).webp' data-lightbox="Desolation" data-title="gray_city (2)">
+        <img src='Assets\art\Desolation\gray_city (2).webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_city (3).webp' data-lightbox="Desolation" data-title="gray_city (3)">
+        <img src='Assets\art\Desolation\gray_city (3).webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_city (4).webp' data-lightbox="Desolation" data-title="gray_city (4)">
+        <img src='Assets\art\Desolation\gray_city (4).webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_city (5).webp' data-lightbox="Desolation" data-title="gray_city (5)">
+        <img src='Assets\art\Desolation\gray_city (5).webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_city.webp' data-lightbox="Desolation" data-title="gray_city">
+        <img src='Assets\art\Desolation\gray_city.webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_lighthouse.webp' data-lightbox="Desolation" data-title="gray_lighthouse">
+        <img src='Assets\art\Desolation\gray_lighthouse.webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_street.webp' data-lightbox="Desolation" data-title="gray_street">
+        <img src='Assets\art\Desolation\gray_street.webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_train.webp' data-lightbox="Desolation" data-title="gray_train">
+        <img src='Assets\art\Desolation\gray_train.webp'>
+    </a>
+    <a href='Assets\art\Desolation\gray_tree.webp' data-lightbox="Desolation" data-title="gray_tree">
+        <img src='Assets\art\Desolation\gray_tree.webp'>
+    </a>
+        </div>
     </div>
 
     <h2> Forest Landscapes </h2>
-    <div class="image-container" id="image-container">
-        <img src='Assets\art\Forest Landscapes\autumn.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Autumn (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Autumn(3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\blue (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\blue (3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\blue.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cabin (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cabin (3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cabin (4).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cabin (5).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cabin (6).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cabin.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cartoon (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cartoon (3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cartoon (4).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cartoon (5).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cartoon (6).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\cartoon (7).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Cartoon.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\field.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Green_clear (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Green_clear (3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_clear (4).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_clear (5).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_clear (6).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_clear (7).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_clear (8).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Green_clear.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_mist (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_mist (3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_mist (4).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\green_mist (5).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Green_mist.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\idk.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\mountain (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\mountain.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Orange (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\orange (3).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\orange (4).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\Orange.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\painting.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\purple.webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\spooky (2).webp' class="image-box">
-        <img src='Assets\art\Forest Landscapes\spooky.webp' class="image-box">
+    <div class="containerYT" id="image-container">
+        <div class="galleryYT">
+        <a href='Assets\art\Forest Landscapes\autumn.webp' data-lightbox="Forest Landscapes" data-title="autumn">
+            <img src='Assets\art\Forest Landscapes\autumn.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\autumn (2).webp' data-lightbox="Forest Landscapes" data-title="autumn (2)">
+            <img src='Assets\art\Forest Landscapes\autumn (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\autumn(3).webp' data-lightbox="Forest Landscapes" data-title="autumn(3)">
+            <img src='Assets\art\Forest Landscapes\autumn(3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\blue (2).webp' data-lightbox="Forest Landscapes" data-title="blue (2)">
+            <img src='Assets\art\Forest Landscapes\blue (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\blue (3).webp' data-lightbox="Forest Landscapes" data-title="blue (3)">
+            <img src='Assets\art\Forest Landscapes\blue (3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\blue.webp' data-lightbox="Forest Landscapes" data-title="blue">
+            <img src='Assets\art\Forest Landscapes\blue.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cabin (2).webp' data-lightbox="Forest Landscapes" data-title="cabin (2)">
+            <img src='Assets\art\Forest Landscapes\cabin (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cabin (3).webp' data-lightbox="Forest Landscapes" data-title="cabin (3)">
+            <img src='Assets\art\Forest Landscapes\cabin (3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cabin (4).webp' data-lightbox="Forest Landscapes" data-title="cabin (4)">
+            <img src='Assets\art\Forest Landscapes\cabin (4).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cabin (5).webp' data-lightbox="Forest Landscapes" data-title="cabin (5)">
+            <img src='Assets\art\Forest Landscapes\cabin (5).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cabin (6).webp' data-lightbox="Forest Landscapes" data-title="cabin (6)">
+            <img src='Assets\art\Forest Landscapes\cabin (6).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cabin.webp' data-lightbox="Forest Landscapes" data-title="cabin">
+            <img src='Assets\art\Forest Landscapes\cabin.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon (2).webp' data-lightbox="Forest Landscapes" data-title="cartoon (2)">
+            <img src='Assets\art\Forest Landscapes\cartoon (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon (3).webp' data-lightbox="Forest Landscapes" data-title="cartoon (3)">
+            <img src='Assets\art\Forest Landscapes\cartoon (3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon (4).webp' data-lightbox="Forest Landscapes" data-title="cartoon (4)">
+            <img src='Assets\art\Forest Landscapes\cartoon (4).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon (5).webp' data-lightbox="Forest Landscapes" data-title="cartoon (5)">
+            <img src='Assets\art\Forest Landscapes\cartoon (5).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon (6).webp' data-lightbox="Forest Landscapes" data-title="cartoon (6)">
+            <img src='Assets\art\Forest Landscapes\cartoon (6).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon (7).webp' data-lightbox="Forest Landscapes" data-title="cartoon (7)">
+            <img src='Assets\art\Forest Landscapes\cartoon (7).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\cartoon.webp' data-lightbox="Forest Landscapes" data-title="cartoon">
+            <img src='Assets\art\Forest Landscapes\cartoon.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\field.webp' data-lightbox="Forest Landscapes" data-title="field">
+            <img src='Assets\art\Forest Landscapes\field.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\Green_clear (2).webp' data-lightbox="Forest Landscapes" data-title="Green_clear (2)">
+            <img src='Assets\art\Forest Landscapes\Green_clear (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\Green_clear (3).webp' data-lightbox="Forest Landscapes" data-title="Green_clear (3)">
+            <img src='Assets\art\Forest Landscapes\Green_clear (3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_clear (4).webp' data-lightbox="Forest Landscapes" data-title="green_clear (4)">
+            <img src='Assets\art\Forest Landscapes\green_clear (4).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_clear (5).webp' data-lightbox="Forest Landscapes" data-title="green_clear (5)">
+            <img src='Assets\art\Forest Landscapes\green_clear (5).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_clear (6).webp' data-lightbox="Forest Landscapes" data-title="green_clear (6)">
+            <img src='Assets\art\Forest Landscapes\green_clear (6).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_clear (7).webp' data-lightbox="Forest Landscapes" data-title="green_clear (7)">
+            <img src='Assets\art\Forest Landscapes\green_clear (7).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_clear (8).webp' data-lightbox="Forest Landscapes" data-title="green_clear (8)">
+            <img src='Assets\art\Forest Landscapes\green_clear (8).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\Green_clear.webp' data-lightbox="Forest Landscapes" data-title="Green_clear">
+            <img src='Assets\art\Forest Landscapes\Green_clear.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_mist (2).webp' data-lightbox="Forest Landscapes" data-title="green_mist (2)">
+            <img src='Assets\art\Forest Landscapes\green_mist (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_mist (3).webp' data-lightbox="Forest Landscapes" data-title="green_mist (3)">
+            <img src='Assets\art\Forest Landscapes\green_mist (3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_mist (4).webp' data-lightbox="Forest Landscapes" data-title="green_mist (4)">
+            <img src='Assets\art\Forest Landscapes\green_mist (4).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\green_mist (5).webp' data-lightbox="Forest Landscapes" data-title="green_mist (5)">
+            <img src='Assets\art\Forest Landscapes\green_mist (5).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\Green_mist.webp' data-lightbox="Forest Landscapes" data-title="Green_mist">
+            <img src='Assets\art\Forest Landscapes\Green_mist.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\idk.webp' data-lightbox="Forest Landscapes" data-title="idk">
+            <img src='Assets\art\Forest Landscapes\idk.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\mountain (2).webp' data-lightbox="Forest Landscapes" data-title="mountain (2)">
+            <img src='Assets\art\Forest Landscapes\mountain (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\mountain.webp' data-lightbox="Forest Landscapes" data-title="mountain">
+            <img src='Assets\art\Forest Landscapes\mountain.webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\Orange (2).webp' data-lightbox="Forest Landscapes" data-title="Orange (2)">
+            <img src='Assets\art\Forest Landscapes\Orange (2).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\orange (3).webp' data-lightbox="Forest Landscapes" data-title="orange (3)">
+            <img src='Assets\art\Forest Landscapes\orange (3).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\orange (4).webp' data-lightbox="Forest Landscapes" data-title="orange (4)">
+            <img src='Assets\art\Forest Landscapes\orange (4).webp' class="image-box">
+        </a>
+        <a href='Assets\art\Forest Landscapes\Orange.webp' data-lightbox="Forest Landscapes" data-title="Orange">
+            <img src='Assets\art\Forest Landscapes\Orange.webp' class="image-box">
+        </a
+        
+         </div>
     </div>
-    
 
     </section>
 
@@ -111,6 +227,6 @@
     </footer>
 
     <script src="script.js"></script>
-
+    <script src="lightbox-plus-jquery.js"></script>
 </body>
 </html>

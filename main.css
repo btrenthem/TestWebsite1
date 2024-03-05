@@ -164,6 +164,42 @@ section {
     box-sizing: border-box;
 }
 
+/* YOUTUBE TEST SECTION */
+
+
+.containerYT {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.galleryYT {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+}
+
+
+
+.galleryYT img{
+    width: 100%;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transitions for box-shadow and transform */
+}
+
+.galleryYT img:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.815); /* Add a light shadow when hovering */
+    transform: scale(1.05); /* Grow the image by 5% when hovering */
+}
+
+
+
+
+
+
+
 
 /* FOOTER */
 
