@@ -80,7 +80,7 @@ window.onload = function() {
         // Execute your hideGallery functions when the button is clicked
         hideGallery(galleryYT1);
         hideGallery(galleryYT2);
-        hideGallery(galleryYT2);
+        hideGallery(galleryYT3);
         hideGallery(galleryYT4); //
     });
 };
