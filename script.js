@@ -56,16 +56,30 @@ window.onload = function() {
         }
     });
 
+    // Get the button element by its ID for Gallery 4
+    var myButton4 = document.getElementById("Gal4");
+    var galleryYT4 = document.getElementById("image-container4");
+
+    // Add a click event listener to the button for Gallery 4
+    myButton4.addEventListener("click", function() {
+        // Toggle the visibility of the galleryYT div for Gallery 4
+        if (galleryYT4.style.display === "none" || galleryYT4.style.display === "") {
+            showGallery(galleryYT4); // Show the div
+        } else {
+            hideGallery(galleryYT4); // Hide the div
+        }
+    });
     // Hide the galleries on page load
     hideGallery(galleryYT1);
     hideGallery(galleryYT2);
     hideGallery(galleryYT3);
+    hideGallery(galleryYT4); //
 
      // Attach click event to the button
     document.getElementById('HideAll').addEventListener('click', function() {
         // Execute your hideGallery functions when the button is clicked
         hideGallery(galleryYT1);
         hideGallery(galleryYT2);
-        hideGallery(galleryYT3);
+        hideGallery(galleryYT4); //
     });
 };
