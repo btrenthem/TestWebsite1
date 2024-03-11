@@ -121,32 +121,35 @@ section {
     animation: upDownAnimation 4s infinite cubic-bezier(0.4, 0.0, 0.2, 1);
 } */
 
-.sleek-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: rgba(230, 244, 241, 0.5); /* Same as .curved-box */
-    border-radius: 15px; /* Rounded corners */
-    overflow: hidden; /* Keeps the rounded corners for the table */
+.LinkInBody {
+    background-color: darkgray;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
 }
 
-.sleek-table th, .sleek-table td {
-    border: 1px solid #ccc; /* Light grey border */
-    padding: 8px;
-    text-align: left;
+.LinkInBody:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-.sleek-table thead {
-    background-color: #e6f4f1; /* Slightly darker shade for header */
-}
 
-/* Additional styling if needed */
+
 
 /* Images for art.html */
 
-.image-container {
+#image-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Adjust as needed */
+    justify-content: space-between;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#image-container.hidden {
+    opacity: 0;
+    pointer-events: none;
+    display: none;
 }
 
 /* 3 columns */
@@ -164,9 +167,30 @@ section {
     box-sizing: border-box;
 }
 
-/* YOUTUBE TEST SECTION */
+/* Gallery Stuff */
 
+#HideAll {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(76, 175, 80, 0); /* Set the alpha value to 0 for complete transparency */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
 
+#HideAll:hover {
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.8); /* Adjust values for your desired color and intensity */
+}
+
+.gallery-header:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
 .containerYT {
     width: 100%;
     min-height: 100vh;
@@ -180,8 +204,8 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
+    transition: opacity 0.3s ease, height 0.3s ease; /* Add smooth transition for opacity and height */
 }
-
 
 
 .galleryYT img{
@@ -196,10 +220,11 @@ section {
 
 
 
+/* Interactive Menu css */
 
-
-
-
+.gallery-hidden {
+    display: none;
+}
 
 /* FOOTER */
 
