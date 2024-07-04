@@ -135,6 +135,18 @@ section {
 }
 
 
+/* Video bg on main page */
+  
+  #background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
 
 
 /* Images for art.html */
@@ -229,6 +241,10 @@ section {
 /* FOOTER */
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background: linear-gradient(to right, var(--color-C1), var(--color-C2), var(--color-C3), var(--color-C4));
     padding: 1px;
     box-sizing: border-box;
