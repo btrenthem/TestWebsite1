@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure that the content takes at least the full height of the viewport */
+    min-width: 100vw;
 
     background-image: url('Assets/gradient_background.png');
     background-size: cover; /* Ensure the background image covers the entire section */
@@ -28,7 +29,7 @@ h2 {
 
 .site-header {
     background-color: var(--color-A1);
-    padding: 20px;
+    padding: 1em;
     box-sizing: border-box;
     transition: 0.5s;
 }
@@ -51,7 +52,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 0.5em 0.5em;
   }
   
   .uppernav {
@@ -62,7 +63,7 @@ h2 {
   
   .uppernav li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 0.5em;
   }
   
   .uppernav ul {
@@ -74,10 +75,10 @@ h2 {
 
   .uppernav li a {
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 0.55px 0.7em;
     background-color: rgba(135, 206, 250, 0);
     color: white;
-    border-radius: 5px;
+    border-radius: 0.25em;
   }
 
   .uppernav:after {
@@ -99,9 +100,8 @@ h2 {
     opacity: 0;
   }
 
-
-
 /* Content area with flex-grow to fill remaining space */
+
 section {
     flex-grow: 1;
 }
@@ -111,8 +111,8 @@ section {
 .curved-box {
     background-color: rgba(85,87,94, 0.5);
     border-radius: 15px; /* Adjust the radius to control the curve */
-    padding: 10px;
-    margin: 5px;
+    padding: 0.5em;
+    margin: 0.25em;
     overflow: hidden;
     color: white; /* Set the text color to white */
 }
@@ -124,7 +124,7 @@ section {
 .LinkInBody {
     background-color: darkgray;
     border-radius: 8px;
-    padding: 10px;
+    padding: 0.5em;
     color: black;
     text-decoration: none;
     transition: transform 0.2s ease-in-out;
@@ -164,20 +164,25 @@ section {
     display: none;
 }
 
+/* Not used */
+
 /* 3 columns */
+/*
 .image-box {
-    width: calc(33.33% - 20px); /* Adjust the width and margin according to your preferences */
+    width: calc(33.33% - 1em); */ /* Adjust the width and margin according to your preferences */ /*
     margin: 10px;
+    box-sizing: border-box;
+} */
+
+/* 400x400 fixed */ /*
+.image-box-fixed {
+    width: 400px;
+    height: 400px; */ /* You can add this if you want to enforce a square aspect ratio */
+   /* margin: 10px;
     box-sizing: border-box;
 }
 
-/* 400x400 fixed */
-.image-box-fixed {
-    width: 400px;
-    height: 400px; /* You can add this if you want to enforce a square aspect ratio */
-    margin: 10px;
-    box-sizing: border-box;
-}
+ */
 
 /* Gallery Stuff */
 
@@ -188,7 +193,7 @@ section {
     transform: translateX(-50%);
     background-color: rgba(76, 175, 80, 0); /* Set the alpha value to 0 for complete transparency */
     color: white;
-    padding: 15px 20px;
+    padding: 0.65em 1em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -209,13 +214,13 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 10px;
+    padding: 0.5em 0.5em;
 }
 
 .galleryYT {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
+    grid-gap: 0.75em;
     transition: opacity 0.3s ease, height 0.3s ease; /* Add smooth transition for opacity and height */
 }
 
@@ -246,7 +251,7 @@ footer {
     left: 0;
     width: 100%;
     background: linear-gradient(to right, var(--color-C1), var(--color-C2), var(--color-C3), var(--color-C4));
-    padding: 1px;
+    padding: 0.02em;
     box-sizing: border-box;
     color: white;
     text-align: center;
