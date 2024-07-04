@@ -11,6 +11,8 @@
 </head>
 <body>
 
+<div class="loader"></div>
+
     <header class="site-header">
         <div class="header-content">
         <h1> <a href="index.html" id="home-link"> Brandon Stuff </a> </h1>
@@ -44,6 +46,18 @@ The techies can peek under the hood for both my sites. <br> <br>
     </footer>
 
     <script src="script.js"></script>
+
+
+    <!-- Loader Script -->
+    <script>
+        window.addEventListener("load", () => {
+            document.querySelector(".loader").classList.add("loader--hidden");
+
+            document.querySelector(".loader").addEventListener("transitionend", () => {
+                document.body.removeChild(document.querySelector(".loader"));
+            });
+    });
+    </script>
 
 </body>
 </html>

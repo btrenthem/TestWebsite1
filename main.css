@@ -1,5 +1,7 @@
 /*BS CSS*/
 
+/* All ANIMATIONS are on the bottom of the document*/
+
 /* HEADER */
 
 /* Style for the link with the "home" ID */
@@ -104,6 +106,37 @@ h2 {
 
 section {
     flex-grow: 1;
+}
+
+/* Loader */
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after{
+    content:"";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #000000;
+    border-top-color: #ff8b06;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+
 }
 
 /* CONTENT MAIN */
@@ -272,4 +305,9 @@ footer:hover {
     50% {
         transform: translateY(-60px);
     }
+}
+
+@keyframes loading {
+    from { transform: rotate(0turn); }
+    to { transform: rotate(1turn); }
 }
