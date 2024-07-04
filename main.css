@@ -278,6 +278,8 @@ section {
 
 /* FOOTER */
 
+
+
 footer {
     position: fixed;
     bottom: 0;
@@ -294,6 +296,22 @@ footer {
 footer:hover {
    /* bg effect, delete comment to bring back {}{} background: linear-gradient(to right, rgba(33,40,43, 0.8), rgba(201,180,175, 0.4));*/
    opacity: 0.5;
+}
+
+.social-media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.1em;
+}
+
+.ssocial-media-section img {
+    transition: transform 2s ease;
+}
+
+.social-media-section img:hover {
+    transform: scale(1.1);
 }
 
 /* ANIMATIONS */
