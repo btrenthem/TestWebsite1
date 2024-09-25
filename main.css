@@ -47,7 +47,7 @@ h2 {
 
 .site-header h1:hover {
     transform: scale(1.1);
-    color: #ff8b06; /* Change text color */
+    color: #33fff5; /* Change text color */
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
 
@@ -87,7 +87,7 @@ h2 {
 
 .uppernav li a:hover {
     transform: scale(1.1);
-    color: #ff8b06; /* Change text color */
+    color: #33fff5; /* Change text color */
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
 }
 
@@ -110,7 +110,7 @@ section {
     align-items: center;
     justify-content: center;
     background: #000000;
-    color: #ff8b06;
+    color: #33fff5;
     transition: opacity 0.75s, visibility 0.75s;
     z-index: 20;
 }
@@ -127,7 +127,7 @@ section {
     width: 75px;
     height: 75px;
     border: 15px solid #000000;
-    border-top-color: #ff8b06;
+    border-top-color: #33fff5;
     border-radius: 50%;
     animation: loading 0.75s ease infinite;
     margin-bottom: 1em;
@@ -216,7 +216,7 @@ section {
 
 .column h3 {
     font-size: 24px;
-    color: #ff8b06;
+    color: #33fff5;
     text-align: center; /* Center text horizontally */
     line-height: 1; /* Ensure text fills the container vertically */
     padding: 0.2em; /* Add slight padding */
@@ -257,6 +257,11 @@ section {
     display: none;
 }
 
+.gallery-header:hover {
+   /* transform: scale(1.1); */
+    color: #33fff5; /* Change text color */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
 /* Not used */
 
 /* 3 columns */
