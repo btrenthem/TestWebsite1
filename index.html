@@ -1,89 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="colors.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="icon" type="image/png" href="Assets\favicon-32x32.png">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Brandon Stuff - Home</title>
+    <link rel="icon" href="icon.png" type="image/png">
+    <meta name="description" content="Showcasing the music and projects of Falcon 5">
+    <title>Falcon 5</title>
+    <link rel="stylesheet" href="second.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <main class="linktree">
+        <h1>Falcon 5</h1>
+        <p>My first EP - <b>Prima Lux</b> - is out now!</p>
 
-    <div class="loader">
-        <div class="loader-content">
-        <div class="loader-circle"></div>
-        <div class="loader-text"> Brandon's Stuff is loading...</div>
+        <div class="links">
+            <a href="https://www.spotify.com" target="_blank" class="link-button">Listen on Spotify</a>
+            <a href="https://www.apple.com/music" target="_blank" class="link-button">Listen on Apple Music</a>
+            <a href="https://soundcloud.com/brandon-trenthem" target="_blank" class="link-button">Follow on SoundCloud</a>
+            <a href="https://www.instagram.com/btrenthem/" target="_blank" class="link-button">Instagram</a>
+            <a href="https://twitter.com/brandontrenthem" target="_blank" class="link-button">Twitter</a>
+            <p>Email: <a href="mailto:brandon@falcon5music.com">INFO@FALCON5MUSIC.com</a></p>
         </div>
-      </div>
-
-    <header class="site-header">
-        <div class="header-content">
-        <h1> <a href="index.html" id="home-link"> Brandon Stuff </a> </h1>
-      <nav class="uppernav">
-            <ul>
-                <li><a href="music.html"> Music </a> </li>
-                <li><a href="art.html"> Art </a> </li>
-              <!--  <li><a href="test.html"> Test </a> </li> -->
-            </ul>
-        </nav>
-    </div>
-    </header>    
-    <section class="section-body">
-   
-    <video autoplay muted loop id="background-video">
-        <source src="https://brandonstuffstorage.blob.core.windows.net/brandonstuff-web-storage/dusty%20bg%20full.mp4" type="video/mp4">
-    </video>
-<div class="curved-box centered-text">
-    <p> This is a small personal website created to showcase my different creations. </p>
-
- </div>
-
-        <!-- 3-column selection -->
-        <div class="three-columns">
-           <!-- <a href="tech.html" class="column"> -->
-           <!-- <div class="column">
-                <h3>TECH - COMING SOON!</h3>
-            </div> -->
-            <a href="music.html" class="column">
-                <h3>MUSIC</h3>
-            </a>
-            <a href="art.html" class="column">
-                <h3>ART</h3>
-            </a>
-        </div>
-    
-
-    <footer>
-        <!-- <p>This is a portfolio website. <br> Thanks for visiting!</p> -->
-
-        <section class="social-media-section">
-            <a href="https://www.instagram.com/btrenthem/" target="_blank">
-                <img src="Assets\icons8-instagram-50.png" alt="Instagram" class="social-media-logo"> </a>
-              <a href="https://www.facebook.com/brandontrenthem" target="_blank">
-                <img src="Assets\icons8-facebook-50.png" alt="Facebook" class="social-media-logo"> </a>
-              <a href="https://twitter.com/brandontrenthem" target="_blank">
-                <img src="Assets\icons8-x-50.png" alt="Twitter" class="social-media-logo"> </a>
-            <a href="https://soundcloud.com/brandon-trenthem" target="_blank">
-                <img src="Assets\icons8-soundcloud-50.png" alt="Twitter" class="social-media-logo"> </a>
-            <!-- Add more social media logos as needed -->
-          </section>
-    </footer>
-
-    <script src="script.js"></script>
-
-
-    <!-- Loader Script -->
-    <script>
-        window.addEventListener("load", () => {
-            document.querySelector(".loader").classList.add("loader--hidden");
-
-            document.querySelector(".loader").addEventListener("transitionend", () => {
-                document.body.removeChild(document.querySelector(".loader"));
-            });
-    });
-    </script>
-
+    </main>
 </body>
+
 </html>
